@@ -1,0 +1,264 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,a,p,span{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header section */
+
+.tom-header .navbar-brand{
+    font-size: 25px;
+    font-weight: 500;
+}
+.tom-header span{
+    background: #6278df;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    height: 44px;
+    width: 45px;
+    border-radius: 10px;
+    font-size: 28px;
+    position: relative;
+    top: 3px;
+    margin-bottom: 10px;
+}
+
+/* slider-section */
+.slider-section{
+    background: url(https://i.ibb.co/tPJLpRh/mbr-10.jpg) no-repeat center center rgb(0, 0, 0, 0.5);
+    background-size: cover;
+    padding: 170px 0;
+    background-blend-mode: overlay;
+
+}
+
+/* slider-caption */
+
+.slider-caption h4{
+    margin-top: -50px;
+    font-weight: 300;
+    font-size: 26px;
+    margin-left: 14px;
+}
+.slider-caption h2{
+    font-size: 47px;
+    font-weight: 500;
+    margin-left: 28px;
+}
+.jon-menu .nav-link{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.slider-caption button{
+    background: #5ba533;
+    border: none;
+    color: #fff;
+    transition: .5s;
+}
+.slider-caption button:hover{
+    color: rgb(114, 114, 236);
+}
+.slider-caption button h3{
+    font-size: 25px;
+}
+.slider-caption .form-control:hover{
+   /* border: 2px solid rgb(114, 114, 236.7); */
+   
+}
+.number-corunter-item h2{
+    font-size: 55px;
+}
+.number-corunter-item p{
+    font-size: 21px;
+}
+
+/* about sectino */
+
+.about-section{
+    background: #f7f9ff;
+}
+.about-text{
+    margin-top: 130px;
+}
+
+.about-section h2{
+    font-size: 46px;
+    font-weight: 500;
+}
+.about-section p{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31px;
+}
+
+.feature-item {
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.left-img-sec {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-test-sec {
+    width: 60%;
+    padding: 25px;
+}
+
+.left-img-sec img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -126px;
+}
+.left-test-sec .lead{
+    font-size: 17px;
+    font-weight: 200;
+}
+.left-test-sec h4{
+    font-size: 22px;
+    font-weight: 500;
+}
+.left-img-sec .low-wt{
+    width: 493px !important;
+    
+    
+}
+.feature-text h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+.feature-text p{
+    font-size: 25px;
+}
+.portfolio-text{
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+/* portfolio-itme */
+
+.portfolio-itme{
+
+}
+.portfolio-itme a{
+    display: block;
+    position: relative;
+}
+.portfolio-itme a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   background-color: rgba(98, 120, 223,.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.portfolio-itme:hover ::after{
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+}
+
+
+/* Pricing table */
+
+.pricing-table-section{
+    background: #f7f9ff;
+}
+.pricing-item{
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    border-radius: 5px;
+}
+
+.pricing-item ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 45px;
+}
+.pricing-item ul li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #777;
+}
+.pricing-item ul li span {
+    color: #657be0;
+    font-size: 25px;
+    font-weight: bold;
+    width: 40px;
+    display: inline-block;
+}
+
+
+
+.pricing-item-button a {
+    border-color: #657be0;
+    border-width: 2px;
+    color: #657be0;
+    padding: 14px 30px;
+    font-size: 22px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+
+/*  testimonial section  */
+.author-info {
+    width: 220px;
+    margin: auto;
+}
+.author-info img {
+    width: 85px;
+    margin-right: 18px;
+}
+.user-details {
+    text-align: left;
+    position: relative;
+    top: 10px;
+}
+
+/*  About Section  */
+.about-item {
+    margin-top: 90px;
+}
+.about-item .card img {
+    width: 130px;
+    height: auto;
+    margin-top: -70px;
+    margin-left: 15px;
+}
+
+/*  Conent Us CSS  */
+.contnt-form-div .card{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    padding: 40px;
+}
+.min-section{
+    background: #f7f9ff;
+    color: cornflowerblue;
+    font-size: 18px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 992px) {
+    .about-text {
+        margin-top: 0;
+    }
+}
